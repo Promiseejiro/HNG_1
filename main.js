@@ -19,7 +19,6 @@ const daysOfWeek = [
   "Saturday",
 ];
 const date = new Date();
-console.log(date.toUTCString());
 profileImage.src = "./assets/slackProfileImage.jpg";
 slackNameElement.textContent = "Promiseejiro";
 slackEmailElement.textContent = "promiseejiro43@gmail.com";
