@@ -31,14 +31,14 @@
         <div class="left-main">
           <div class="profile-picture-container">
             <div class="profile-label">Slack profile picture</div>
-            <img class="profile-image" src="./assets/slackProfileImage.jpg" />
+            <img class="profile-image" data-testid="profile-image" src="" />
           </div>
         </div>
         <div class="right-main">
           <div class="profile_info">
             <h1>
               EMOSIVBE PROMISE
-              <a class="hng" href="https://hng.tech/learn">HNG</a>
+              <!-- <a class="hng" href="https://hng.tech/learn">HNG</a> -->
             </h1>
             <h4>Frontend developer</h4>
             <p>
@@ -49,19 +49,26 @@
             <div class="slackdetails">
               <ul>
                 <li>
-                  <span>Slack name:</span> <a class="link">Promiseejiro</a>
+                  <span>Slack name:</span>
+                  <a class="link" data-testid="slackName"></a>
                 </li>
                 <li>
                   <span>Current Time in UTC:</span>
-                  <a class="link">Promiseejiro</a>
+                  <a class="link" data-testid="currentTimeElement"
+                    >Promiseejiro</a
+                  >
                 </li>
                 <li>
                   <span>Current Day of the week:</span>
-                  <a class="link">Promiseejiro</a>
+                  <a class="link" data-testid="currentDayElement"
+                    >Promiseejiro</a
+                  >
                 </li>
                 <li>
                   <span>Slack Email:</span>
-                  <a class="link">Promiseejiro</a>
+                  <a class="link" data-testid="slackEmailElement"
+                    >Promiseejiro</a
+                  >
                 </li>
               </ul>
               <div class="links">
