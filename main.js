@@ -1,14 +1,5 @@
-const slackNameElement = document.querySelector('[data-testid="slackName"]');
-const slackEmailElement = document.querySelector(
-  '[data-testid="slackEmailElement"]'
-);
-const profileImage = document.querySelector('[data-testid="profile-image"]');
-const currentTimeElement = document.querySelector(
-  '[data-testid="currentTimeElement"]'
-);
-const currentDayElement = document.querySelector(
-  '[data-testid="currentDayElement"]'
-);
+const currentTimeUTC = document.querySelector('[data-testid="currentTimeUTC"]');
+const currentDay = document.querySelector('[data-testid="currentDay"]');
 const daysOfWeek = [
   "Sunday",
   "Monday",
@@ -19,8 +10,5 @@ const daysOfWeek = [
   "Saturday",
 ];
 const date = new Date();
-profileImage.src = "./assets/slackProfileImage.jpg";
-slackNameElement.textContent = "Promiseejiro";
-slackEmailElement.textContent = "promiseejiro43@gmail.com";
-currentTimeElement.textContent = date.toUTCString();
-currentDayElement.textContent = daysOfWeek[date.getDay()];
+currentTimeUTC.textContent = date.toUTCString();
+currentDay.textContent = daysOfWeek[date.getDay()];
