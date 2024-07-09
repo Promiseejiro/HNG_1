@@ -175,6 +175,38 @@ main {
   padding: 16px;
 }
 
+.project {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.project_header {
+  /* display: flex;
+  align-items: left;
+  justify-content: left;*/
+  margin: 1rem 0;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--blue--);
+}
+
+.project h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0.4rem 0;
+  display: inline;
+  margin: auto;
+  border-bottom: 2px solid var(--blue--);
+}
+
+.project p {
+  font-size: 16px;
+  margin: 0.6rem 0;
+}
+
 .cards-container {
   display: block;
   gap: 32px;
@@ -222,6 +254,17 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.linkcon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+.linkcon .hng {
+  font-weight: 600;
 }
 
 @media (min-width: 900px) {
